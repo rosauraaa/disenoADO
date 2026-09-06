@@ -6,8 +6,8 @@ body {
 }
 
 :root{
-  --primary: #5B177F;
-  --primary-dark: #652378;
+  --primary: #e21c24;
+  --primary-dark: #b8141a;
   --background: #11131e;
   --card-text: #e21c24;
   --border: #e4e4e7;
@@ -131,7 +131,7 @@ body {
 .input-group textarea:focus{
   outline:none;
   border-color:var(--card-text);
-  box-shadow:0 0 0 3px rgba(122,45,145,.15);
+  box-shadow:0 0 0 3px rgba(226,28,36,.15);
   color: var(--text-primary);
 }
 
@@ -152,7 +152,7 @@ body {
   font-weight:600;
   cursor:pointer;
   transition:.2s;
-  color: var(--primary)
+  color: var(--primary);
 }
 
 .area-card:hover{
@@ -161,7 +161,7 @@ body {
 }
 
 .area-card.selected{
-  background:#f5ecf9;
+  background:#fde8e8;
   border:2px solid var(--primary);
   color:var(--primary);
 }
@@ -173,7 +173,7 @@ body {
   border:1px solid #e5e5e5;
   border-radius:12px;
   padding:20px;
-  color: var(--primary)
+  color: var(--primary);
 }
 
 .confirm-card p{
