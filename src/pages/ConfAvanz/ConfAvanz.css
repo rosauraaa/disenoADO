@@ -1,4 +1,3 @@
-
 .config-panel {
   max-width: 650px;
   margin: 40px auto 0 auto;
@@ -13,8 +12,8 @@
 }
 
 .config-option-card {
-  background-color: #11131e;
-  border: 1px solid #1e2235;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
   border-radius: 10px;
   padding: 24px 20px; 
   display: flex;
@@ -25,12 +24,14 @@
   gap: 12px;              
   cursor: pointer;
   transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
 .config-option-card:hover {
   border-color: #e21c24; 
-  background-color: #161927;
+  background-color: #fcfcfc;
   transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(226, 28, 36, 0.1);
 }
 
 .config-option-icon {
@@ -48,7 +49,7 @@
   margin: 0 0 6px 0;
   font-size: 16px;
   font-weight: 600;
-  color: #ffffff;
+  color: #1e293b;
 }
 
 .config-option-text p {
@@ -67,9 +68,9 @@
 }
 
 .btn-back {
-  background: transparent;
-  border: 1px solid #1e2235;
-  color: #94a3b8;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  color: #475569;
   padding: 8px 12px;
   border-radius: 8px;
   cursor: pointer;
@@ -81,16 +82,17 @@
 }
 
 .btn-back:hover {
-  background: #1e2235;
-  color: #ffffff;
+  background: #f1f5f9;
+  color: #0f172a;
 }
 
 .area-form {
-  background-color: #11131e;
-  border: 1px solid #1e2235;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
   padding: 20px;
   border-radius: 12px;
   margin-bottom: 30px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
 .input-group-row {
@@ -99,11 +101,15 @@
 }
 
 .input-group-row input {
-  background: #161927;
-  border: 1px solid #1e2235;
-  color: white;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  color: #0f172a;
   padding: 12px;
   border-radius: 8px;
+}
+
+.input-group-row input::placeholder {
+  color: #94a3b8;
 }
 
 .input-group-row input[type="text"] {
@@ -115,10 +121,10 @@
 }
 
 .area-list-container h3 {
-  color: #ffffff;
+  color: #1e293b;
   font-size: 16px;
   margin-bottom: 15px;
-  border-bottom: 1px solid #1e2235;
+  border-bottom: 1px solid #e2e8f0;
   padding-bottom: 10px;
 }
 
@@ -135,8 +141,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #161927;
-  border: 1px solid #1e2235;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
   padding: 12px 20px;
   border-radius: 8px;
 }
@@ -147,7 +153,7 @@
 }
 
 .area-info strong {
-  color: #ffffff;
+  color: #0f172a;
   font-size: 15px;
 }
 
@@ -178,11 +184,12 @@
 
 /* Reubicación de camiones */
 .reubicacion-form {
-  background-color: #11131e;
-  border: 1px solid #1e2235;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
   padding: 30px;
   border-radius: 12px;
   text-align: left; 
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
 .form-group-vertical {
@@ -192,15 +199,15 @@
 }
 
 .form-group-vertical label {
-  color: #ffffff;
+  color: #1e293b;
   font-size: 14px;
   font-weight: 600;
 }
 
 .reubicacion-form select {
-  background-color: #161927;
-  border: 1px solid #1e2235;
-  color: #ffffff;
+  background-color: #f8fafc;
+  border: 1px solid #cbd5e1;
+  color: #0f172a;
   padding: 12px;
   border-radius: 8px;
   font-size: 14px;
@@ -210,8 +217,8 @@
 }
 
 .reubicacion-form select option {
-  background-color: #11131e;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #0f172a;
 }
 
 .reubicacion-form select:focus {

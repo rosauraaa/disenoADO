@@ -94,20 +94,22 @@ export default function TarjetaInfo({
       </div>
 
       {/*Barra de Progreso */}
-      <div style={{ width: '90%', margin: '10px auto 0 auto' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4px', padding: '0 2px' }}>
-          <span style={{ fontSize: '10px', color: '#9ca3af' }}>Avance</span>
-          <span style={{ fontSize: '11px', fontWeight: 'bold', color: progreso === 100 ? '#10b981' : '#ffffff' }}>
-            {progreso}%
-          </span>
-        </div>
-        <div className="tarjeta-progreso-mini-bg" style={{ width: '100%', margin: '0' }}>
-          <div 
-            className="tarjeta-progreso-mini-fill" 
-            style={{ width: `${progreso}%` }}
-          ></div>
-        </div>
-      </div>
+      {/*Barra de Progreso */}
+<div style={{ width: '90%', margin: '10px auto 0 auto' }}>
+  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4px', padding: '0 2px' }}>
+    <span style={{ fontSize: '11px', color: '#475569', fontWeight: '600' }}>Avance</span>
+    <span style={{ fontSize: '12px', fontWeight: '800', color: progreso === 100 ? '#059669' : '#0f172a' }}>
+      {progreso}%
+    </span>
+  </div>
+  <div className="tarjeta-progreso-mini-bg" style={{ width: '100%', margin: '0' }}>
+    <div 
+      className="tarjeta-progreso-mini-fill" 
+      style={{ width: `${progreso}%` }}
+    ></div>
+  </div>
+</div>
+
     </div>
   );
 }
